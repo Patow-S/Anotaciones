@@ -17,7 +17,7 @@ Eclipse
 entorno developer 
 direccion jre
 
-##Entorno Github
+## Entorno Github
 
 Comandos GIT
 
