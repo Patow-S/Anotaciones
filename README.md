@@ -92,6 +92,6 @@ C:/Users/USUARIO/Desktop/GITHUB/servidor/
 
 UTILZA GITHUB
 1
-	estar en la carpeta personal
+	estar en la carpeta personal.
 
 
