@@ -5,12 +5,16 @@ java
 java dk
 
 Designar 
-variable - nueva JAVA_HOME
-ruta de java jdk bin
+archivos del programa 
+java 
+java jdk-20
+bin
+ruta
+variable - nueva JAVA_HOME + ruta
 
 Editar 
 path nueva 
-ruta de java jdk bin
+ruta 
 
 ECLIPSE
 Eclipse 
