@@ -94,8 +94,13 @@ paso 6
 
 C:/Users/USUARIO/Desktop/GITHUB/servidor/
 
-UTILZA GITHUB
+## UTILZA GITHUB
 1
 	estar en la carpeta personal.
-
-
+	
+	
+### UTILIZAR SQL 
+Eliminar columna (debes tener cuidado porque muchas veces etsan entrelazado con otra informacion )
+	DROP TABLE X 
+Incertar en tabla 
+	INSERT INTO X 
