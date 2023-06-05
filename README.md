@@ -21,9 +21,9 @@ Eclipse
 entorno developer 
 direccion jre
 
-## Entorno Git - Github
+## Entorno Git
 
-Comandos GIT
+### Comandos GIT
 
 Directorio 
 	dr
@@ -74,7 +74,7 @@ empujar reposiorio
 	git push <nameserv> main
 renombar repositorio 
 	git remote rename <renameserv>
-UTILIZA GIT
+### Inicio Git	
 paso 1 
 	crear un servidor
 	ir a /servidor
@@ -94,13 +94,29 @@ paso 6
 
 C:/Users/USUARIO/Desktop/GITHUB/servidor/
 
-## UTILZA GITHUB
+## Entorno Github
 1
 	estar en la carpeta personal.
 	
 	
-### UTILIZAR SQL 
-Eliminar columna (debes tener cuidado porque muchas veces etsan entrelazado con otra informacion )
+### Entorno SQL 
+Eliminar columna (debes tener cuidado porque muchas veces estan entrelazados con otra informacion)
 	DROP TABLE X 
 Incertar en tabla 
-	INSERT INTO X 
+	INSERT INTO _tablax_ (
+	_productox_
+Seleccionar producto de una tabla
+	SELECT * FROM  _tablax_
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
