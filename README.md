@@ -100,13 +100,36 @@ C:/Users/USUARIO/Desktop/GITHUB/servidor/
 	
 	
 ### Entorno SQL 
-Eliminar columna (debes tener cuidado porque muchas veces estan entrelazados con otra informacion)
-	DROP TABLE X 
+
+Base de datos 
+	USE _base de datos_
+Crear tabla 
+	CREATE TABLE  _tablax_ (
+	_elemento_ VARCHAR (20) NULL,
+	_elemento_ VARCHAR (150) NULL,
+	_elemento_ VARCHAR (150) NULL,
+);
+Crear columna
+	LATER TABLE _tablax_ ADD COLUM (LOTE);
+Eliminar columna (precausion revisar entrelazados)
+	DROP TABLE  _tablax_ 
+Eliminar elemnto de una tabla
+	DELETE FROM _tablax_ WHERE nombre = "77056";
 Incertar en tabla 
 	INSERT INTO _tablax_ (
-	_productox_
-Seleccionar producto de una tabla
+	_nombre_ _nombre_ _embace_ )
+	VALUES ("770932", "clean " , "paper place");
+Seleccionar tabla 
 	SELECT * FROM  _tablax_
+Seleccionar elemento de una tabla
+	SELECT _elemento1_ , _elemento2_ FROM _tablax_ ;
+Configurar elemento de tabla
+	UPDATE _tablax_ SET _nombre_ = "77056" , _embace_ = "bidon" 
+	WHERE  volumen  = "300 ml" (dato mas especifico)
+LLave primaria
+	ALTER TABLE _tablax_ ADD PRIMARY KEY (nombre);
+
+
 
 	
 	
