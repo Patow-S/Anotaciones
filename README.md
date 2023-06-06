@@ -16,7 +16,7 @@ Editar
 path nueva 
 ruta 
 
-ECLIPSE
+## Entorno ECLIPSE
 Eclipse 
 entorno developer 
 direccion jre
@@ -123,12 +123,28 @@ Seleccionar tabla
 	SELECT * FROM  _tablax_
 Seleccionar elemento de una tabla
 	SELECT _elemento1_ , _elemento2_ FROM _tablax_ ;
+Seleccionar elemento con resultado especifico
+	SELECT 8 FRO, _tablax_ 	WHERE EMBACE = "botella de vidrio"	
 Configurar elemento de tabla
 	UPDATE _tablax_ SET _nombre_ = "77056" , _embace_ = "bidon" 
 	WHERE  volumen  = "300 ml" (dato mas especifico)
 LLave primaria
 	ALTER TABLE _tablax_ ADD PRIMARY KEY (nombre);
 
+Exclusion especifica 
+	SELECT * FROM _tablax_ WHERE EDAD > 27;
+	SELECT * FROM _tablax_ WHERE PRECIO_LISTA , 28.51;
+	SELECT * FROM _tablax_ WHERE PRECIO_LISTA BETWEEN  28.49 AND 28.52;
+	
+Exclusion compleja 
+	SELECT * FROM _tablax_ WHERE(PRECIO_LISTA >= 15 AND TAMANO = "1 LITRO") OR (ENVASE = "LATA" OR ENVACE = "BOTELLA PET");
+	
+	
+	
+	
+
+	
+	
 
 
 	
